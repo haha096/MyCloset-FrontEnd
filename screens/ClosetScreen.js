@@ -21,8 +21,10 @@ const ClosetScreen = () => {
 
                 <TouchableOpacity style={styles.btn}>
                   {/*<MaterialCommunityIcons name="cart-minus" size={24} color="white"
-                                      style={styles.btnImg}/>
-                                      */}
+                                      style={styles.btnImg}/>*/}
+                      <Image source={require('../assets/navigationIcon/button.svg')}
+                             style={{width:25, height:25}}/>
+                                      
                   
                 </TouchableOpacity>
               </ImageBackground>
@@ -441,8 +443,6 @@ const styles = StyleSheet.create({
     margin:8,
     padding:10,
     borderRadius:10,
-    width:10,
-    height:10
   },
 })
 
